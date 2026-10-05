@@ -1,0 +1,27 @@
+# Secrets
+.env
+
+# Cache + logs + generated output
+cache/
+run.log
+jobs_*.csv
+latest.csv
+
+# The applied log is yours — track it if you like, but default to local-only.
+applied_log.csv
+
+# CV / resume must NEVER be committed (personal data). Belt and braces:
+my_cv.*
+cv.*
+resume.*
+*[Cc][Vv]*.pdf
+*[Cc][Vv]*.docx
+*[Rr]esume*
+*.pdf
+*.docx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
